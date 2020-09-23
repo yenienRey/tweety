@@ -32,5 +32,5 @@ function add (name, content) {
 }
 
   add('Santi Scalan', 'Free Bootacamps for everyone!!!')
-  console.log(find({id: 3}))
+  //console.log(find({id: 3}))
   //console.log(list(data))

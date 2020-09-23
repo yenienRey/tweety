@@ -2,6 +2,7 @@ const tweetBank = require('../tweetBank');
 const express = require('express');
 
 const router = express.Router();
+
 // Se puede usar solo una linea: const router = require('express').Router();
 
 router.get('/', function (req, res) {
