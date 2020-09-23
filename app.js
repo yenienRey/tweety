@@ -11,6 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
 // Configurando Nunjucks
+
 app.set("view engine", "html"); // hace que res.render funcione con archivos html
 app.engine("html", nunjucks.render); // cuando le den archivos html a res.render, va a usar nunjucks
 nunjucks.configure("views"); // apunta a nunjucks al directorio correcto para los templates
